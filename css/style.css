@@ -470,6 +470,10 @@ footer {
 }
 .footer-container {
   display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
 }
 .footer-left-nav {
   margin-right: 70px;
@@ -526,7 +530,7 @@ footer > a:last-child {
 }
 .footer-right-nav {
   align-self: flex-start;
-  margin-left: 95px;
+  /* margin-left: 95px; */
   display: flex;
   align-items: flex-end;
 }
@@ -537,14 +541,14 @@ footer > a:last-child {
   padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  width: 360px;
+  width: 358px;
   background-color: inherit;
 }
 .sign {
   background-color: var(--web-color);
   border: none;
   border-radius: 4px;
-  padding: 13px 35px;
+  padding: 13px 33px;
   color: var(--white);
   font-weight: bold;
   font-size: 16px;
